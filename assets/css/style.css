@@ -6,14 +6,15 @@
 body{
     font-size: 1em;
     font-family: 'Montserrat', Helvetica, sans-serif;
-    background: #e6e6e6;
+    background: white;
 }
 
 /* Layout */
 #area-cabecalho {
-	background-color: #f7b600;
+	background-color: #7cf6fd;
 	padding: 15px;
 	text-align: center;
+    font-weight: bold;
 }
 
 #area-logo, #area-menu {
@@ -58,7 +59,7 @@ body{
 	clear: both;
 	text-align: center;
 	padding: 15px;
-	background: #CCC;
+	background: white;
 }
 
 /* Formatação do menu */
@@ -67,11 +68,12 @@ a {
 }
 
 a:link, a:visited {
-	color: #f7b600;
+	color: #7cf6fd;
+    font-weight: bold;
 }
 
 a:hover {
-	text-decoration: underline;
+	text-decoration: none;
 }
 
 #area-cabecalho a:link, #area-cabecalho a:visited {
@@ -80,19 +82,19 @@ a:hover {
 }
 
 #area-cabecalho a:hover {
-	color: #f7b600;
-	background: #FFF;
+	color: #7cf6fd;
+	background: #317ac7;
 	text-decoration: none;
 }
 
 /* Formatações em geral */
 h1 {
-	color: #4e4e4e;
+	color: #317ac7;
 	font-size: 2.5em;
 }
 
 h2 {
-	color: #f7b600;
+	color: #317ac7;
 }
 
 h3 {
@@ -102,12 +104,12 @@ h3 {
 }
 
 .branco{
-	color: white;
+	color: #317ac7;
 }
 
 .data-postagem {
 	font-size: 0.8em;
-	border-bottom: 1px solid #f4f4f4;
+	border-bottom: 1px solid #317ac7;
 	padding-bottom: 10px;
 	margin-bottom: 10px;
 	display: block;
